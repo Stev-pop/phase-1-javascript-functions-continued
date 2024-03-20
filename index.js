@@ -11,8 +11,8 @@ function mondayWork(action = 'go to the office'){
     mondayWork("work from home");
 
 function wrapAdjective(visualFlair) {
-        return function(adjective) {
-          return `You are ${visualFlair}${adjective}${visualFlair}!`;
+        return function(addAdjective) {
+          return `You are ${visualFlair}${addAdjective}${visualFlair}!`;
         };
       }
       wrapAdjective("%")("a dedicated programmer");
